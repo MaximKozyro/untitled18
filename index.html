@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="menu">
+        <button id="button" class="menu_button">Menu</button>
+    </div>
+    <div class="menu_wrapper">
+        <div id="menu_items" class="menu_items menu_hide">
+            <ul class="menu_items_list">
+                <li>Menu item 1</li>
+                <li>Menu item 2</li>
+                <li>Menu item 3</li>
+                <li>Menu item 4</li>
+            </ul>
+        </div>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur at atque cumque, delectus
+        dolorum, eius harum illo in inventore magni maxime minima odit officia optio quaerat, rerum velit veniam!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur at atque cumque, delectus
+        dolorum, eius harum illo in inventore magni maxime minima odit officia optio quaerat, rerum velit veniam!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur at atque cumque, delectus
+        dolorum, eius harum illo in inventore magni maxime minima odit officia optio quaerat, rerum velit veniam!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur at atque cumque, delectus
+        dolorum, eius harum illo in inventore magni maxime minima odit officia optio quaerat, rerum velit veniam!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur at atque cumque, delectus
+        dolorum, eius harum illo in inventore magni maxime minima odit officia optio quaerat, rerum velit veniam!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur at atque cumque, delectus
+        dolorum, eius harum illo in inventore magni maxime minima odit officia optio quaerat, rerum velit veniam!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur at atque cumque, delectus
+        dolorum, eius harum illo in inventore magni maxime minima odit officia optio quaerat, rerum velit veniam!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur at atque cumque, delectus
+        dolorum, eius harum illo in inventore magni maxime minima odit officia optio quaerat, rerum velit veniam!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur at atque cumque, delectus
+        dolorum, eius harum illo in inventore magni maxime minima odit officia optio quaerat, rerum velit veniam!</p>
+</div>
+<script>
+    const menu_button = document.querySelector(`#button`);
+    const menu_items = document.querySelector(`#menu_items`);
+
+    const onclick = () => {
+        menu_items.classList.toggle('menu_hide')
+
+    }
+    menu_button.addEventListener('click', onclick);
+</script>
+</body>
+</html>
